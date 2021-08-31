@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Count="1" Active="Debug">
+      <Item1 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="Server"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);..\..\..\..\Lib\mORMot2\trunk\src"/>
+            <Libraries Value="..\..\..\..\Lib\mORMot2\trunk\static\$(TargetCPU)-$(TargetOS)"/>
+            <OtherUnitFiles Value="..\..\..\..\Lib\mORMot2\trunk\src\app;..\..\..\..\Lib\mORMot2\trunk\src\core;..\..\..\..\Lib\mORMot2\trunk\src\crypt;..\..\..\..\Lib\mORMot2\trunk\src\net;..\..\..\..\Lib\mORMot2\trunk\src\soa;..\..\..\..\Lib\mORMot2\trunk\src\db;..\..\..\..\Lib\mORMot2\trunk\src\orm;..\..\..\..\Lib\mORMot2\trunk\src\rest;..\..\..\..\Lib\mORMot2\trunk\src\lib"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+            </Checks>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2Set"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dPUREMORMOT2"/>
+          </Other>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="Server.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="55" Y="23"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="SharedInterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="9"/>
+        <CursorPos X="42" Y="29"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ServerUnit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="76"/>
+        <CursorPos X="3" Y="118"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\Lib\mORMot\trunk\SQLite3\Samples\31 - WebSockets\Project31ChatServer.dpr"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="62"/>
+        <CursorPos X="8" Y="89"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\Lib\mORMot\trunk\SQLite3\Samples\31 - WebSockets\Project31ChatCallbackInterface.pas"/>
+        <EditorIndex Value="14"/>
+        <CursorPos X="29" Y="13"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.perf.pas"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="19"/>
+        <CursorPos X="36" Y="31"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\soa\mormot.soa.server.pas"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="548"/>
+        <CursorPos Y="600"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\rest\mormot.rest.http.server.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="86"/>
+        <CursorPos X="5" Y="95"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\rest\mormot.rest.memserver.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="4"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\soa\mormot.soa.client.pas"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="761"/>
+        <CursorPos X="5" Y="779"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\soa\mormot.soa.core.pas"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="1549"/>
+        <CursorPos Y="1565"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\app\mormot.app.console.pas"/>
+        <EditorIndex Value="11"/>
+        <CursorPos X="35" Y="260"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ClientUnit.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="57"/>
+        <CursorPos X="7" Y="86"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="3719"/>
+        <CursorPos X="31" Y="3735"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\rest\mormot.rest.server.pas"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="2168"/>
+        <CursorPos X="14" Y="2146"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.base.pas"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="1819"/>
+        <CursorPos X="10" Y="1833"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\net\mormot.net.ws.server.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="512"/>
+        <CursorPos X="33" Y="533"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\net\mormot.net.ws.core.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="24" Y="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.text.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1898"/>
+        <CursorPos X="11" Y="1909"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\Lib\mORMot\trunk\SQLite3\Samples\31 - WebSockets\Project31ChatClient.dpr"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="53"/>
+        <CursorPos X="28" Y="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="29" Column="7" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="22" TopLine="5"/>
+      </Position2>
+      <Position3>
+        <Filename Value="SharedInterface.pas"/>
+        <Caret Line="32" Column="7" TopLine="9"/>
+      </Position3>
+      <Position4>
+        <Filename Value="SharedInterface.pas"/>
+        <Caret Line="25" Column="55" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="63" Column="49" TopLine="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="100" Column="33" TopLine="81"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="26" Column="42" TopLine="9"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="25" Column="44" TopLine="5"/>
+      </Position8>
+      <Position9>
+        <Filename Value="SharedInterface.pas"/>
+        <Caret Line="29" Column="42" TopLine="9"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="32" Column="64" TopLine="9"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3726" TopLine="3716"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3728" TopLine="3716"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3731" TopLine="3716"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3726" TopLine="3716"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3728" TopLine="3716"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3731" TopLine="3716"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3732" TopLine="3716"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3733" TopLine="3716"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\core\mormot.core.interfaces.pas"/>
+        <Caret Line="3734" TopLine="3719"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="42" TopLine="15"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="13" Column="19"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="29" Column="15" TopLine="12"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="35" Column="26" TopLine="16"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="28" Column="20" TopLine="16"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\..\Lib\mORMot2\trunk\src\net\mormot.net.ws.server.pas"/>
+        <Caret Line="533" Column="33" TopLine="512"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="14" Column="22"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Server.lpr"/>
+        <Caret Line="46" Column="32" TopLine="17"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="17" Column="48" TopLine="7"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ServerUnit.pas"/>
+        <Caret Line="82" Column="39" TopLine="67"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ClientUnit.pas"/>
+        <Caret Line="86" Column="7" TopLine="57"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
